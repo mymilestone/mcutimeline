@@ -89,7 +89,7 @@ label input:checked + .menu .hamburger:before {
 label input:checked + .menu + ul { opacity: 1; }
 
 label ul {
-  z-index: 200;
+  z-index: 100;
   position: absolute;
   top: 50%;
   left: 50%;
