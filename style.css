@@ -2,13 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 body {
-  background-color: black;
-  color: white;
-  font-family: 'Kanit', sans-serif; font-size: calc(12px + 0.390625vw);
+    font-family: 'Kanit', sans-serif; 
+    font-size: calc(12px + 0.390625vw);
+    color: white;
+    background-color: black;
 }
 
 h1 {
-    font-family: 'Roboto', sans-serif; color: FireBrick; font-size: 6vw; text-align:center;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 6vw; 
+    color: FireBrick; 
+    text-align:center;
 }
 
 h2 {
