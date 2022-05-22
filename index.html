@@ -58,11 +58,9 @@
     <tbody>
      <?php while($row = $result->fetch_assoc()): ?>
       <tr>
-       <td><?php echo $row['ID']; ?></td>
-       <td class="name">
-        <?php echo $row['name']; ?>
-       </td>
-       <td><?php echo $row['prices']; ?></td>
+       <td><?php echo $row['name']; ?></td>
+       <td><?php echo $row['release']; ?></td>
+       <td><?php echo $row['list']; ?></td>
        </tr>
      <?php endwhile ?>
     </tbody>
