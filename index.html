@@ -4,7 +4,6 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="index.js"></script>
 
   <meta charset="UTF-8">
 
@@ -12,6 +11,7 @@
 </head>
 
 <body style="background-color:black" text="#ffffff">
+    <script src="index.js"></script>
 
     <div class="header" id="myHeader">
       <h1>Marvel Cinematic Universe</h1>
@@ -48,21 +48,6 @@
 
   </center>
 
-
-  <script>
-window.onscroll = function() {myFunction()};
-
-var header = document.getElementById("myHeader");
-var sticky = header.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("sticky");
-  } else {
-    header.classList.remove("sticky");
-  }
-}
-</script>
 
 </body>
 
