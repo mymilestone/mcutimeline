@@ -22,7 +22,7 @@ html {
 
 /* Page content */
 .content {
-   /* padding: 16px; */
+   padding: 16px;
 }
 
 /* The sticky class is added to the header with JS when it reaches its scroll position */
