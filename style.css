@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 h1 {
-    font-family: 'Roboto', sans-serif; font-size:4vw;
+    font-family: 'Roboto', sans-serif; font-size:2vw;
 }
 
 h2 {
@@ -15,13 +15,14 @@ html {
 
 /* Style the header */
 .header {
+  /* padding: 10px 16px; */
   background: #ba1917;
   color: #f1f1f1;
 }
 
 /* Page content */
 .content {
-  padding: 16px;
+   /* ppadding: 16px; */
 }
 
 /* The sticky class is added to the header with JS when it reaches its scroll position */
