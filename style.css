@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 h1 {
-    font-family: 'Roboto', sans-serif; font-size: clamp(16px, 5vw, 34px);
+    font-family: 'Roboto', sans-serif; font-size: clamp(18px, 5vw, 34px);
 }
 
 h2 {
@@ -10,7 +10,7 @@ h2 {
 }
 
 html {
-    font-family: 'Kanit', sans-serif; font-size: calc(10px + 0.390625vw);
+    font-family: 'Kanit', sans-serif; font-size: calc(12px + 0.390625vw);
 }
 
 /* Style the header */
