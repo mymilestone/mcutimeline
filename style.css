@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
+body {
+  background-color: black;
+}
+
+body {
+  color: white;
+}
+
 h1 {
     font-family: 'Roboto', sans-serif; font-size:4vw;
 }
