@@ -8,7 +8,7 @@ body {
 }
 
 h1 {
-    font-family: 'Roboto', sans-serif; color: FireBrick; font-size: clamp(18px, 2.2vw, 36px);
+    font-family: 'Roboto', sans-serif; color: FireBrick; font-size: 10vw;
 }
 
 h2 {
