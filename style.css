@@ -20,3 +20,12 @@ h2 {
     text-align: left;
     margin-left: 20px;
 }
+
+/* Mobile Phone Responsiveness */
+
+    @media screen and (max-width: 360px) {
+      h1 {
+        font-size: 20px !important;
+        line-height: 80%;
+        margin-top: 10px;
+      }
