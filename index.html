@@ -1,18 +1,3 @@
-<?php 
-    // Create connection
-    $connect = new mysqli('localhost', 'root', '', 'myTable');
-
-    // Check Connection
-
-    if ($connect->connect_error) {
-        die("Something wrong.: " . $connect->connect_error);
-      }
-
-    $sql = "SELECT * FROM myTable";
-    $result = $connect->query($sql);
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -53,17 +38,6 @@
     <h2>Marvel Defenders</h2><br/>
 
     <h2>Others</h2><br/>
-
-
-    <tbody>
-     <?php while($row = $result->fetch_assoc()): ?>
-      <tr>
-       <td><?php echo $row['name']; ?></td>
-       <td><?php echo $row['release']; ?></td>
-       <td><?php echo $row['list']; ?></td>
-       </tr>
-     <?php endwhile ?>
-    </tbody>
 
 
 
