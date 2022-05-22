@@ -1,18 +1,17 @@
-$(function(){
-  $(window).scroll(function(){
-    $('.year').each(function(){
-      var year = $(this).find('h2').first().text();
-      if($(this).offset().top < $(document).scrollTop() +100){
-        $(this).find('.date').addClass('activeYear');
-           $('#dataYear').html(year);
-        }else{
-          $(this).find('.date').removeClass('activeYear');
-        }
-    });
-  });
-});
-$(document).ready(function(){
-  var year = $('.year').find('h2').first().text();
-    $('#dataYear').html(year); 
-  $('.year').first().find('.date').addClass('activeYear');
-});
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the header
+var header = document.getElementById("myHeader");
+
+// Get the offset position of the navbar
+var sticky = header.offsetTop;
+
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
