@@ -2,20 +2,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 h1 {
-    font-family: 'Roboto', sans-serif; font-size:8vw;
+    font-family: 'Roboto', sans-serif; font-size:6vw;
 }
 
 h2 {
     font-family: 'Roboto', sans-serif; font-size: 1.3rem;
 }
 
-/* html {
+html {
     font-family: 'Kanit', sans-serif; font-size: calc(12px + 0.390625vw);
-} */
+} 
 
 /* Style the header */
 .header {
   padding: 10px 16px;
+  background: #000000;
   color: #f1f1f1;
 }
 
